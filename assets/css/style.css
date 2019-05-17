@@ -1,3 +1,5 @@
+/* general */
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -5,12 +7,6 @@ body {
   color: #777777;
   background: url("../images/dust_scratches.png");
 }
-
-/* * {
-  box-sizing: border-box;
-} */
-
-/* general */
 
 h1,
 h2,
@@ -93,8 +89,18 @@ h2 {
 
 /* main */
 
-.main-section {
+.background {
   background: #ffffff;
+}
+
+/* about */
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 /* portfolio page */
@@ -106,42 +112,11 @@ h2 {
   margin: auto;
 }
 
-
-/* .work {
-  position: relative;
-} */
-
-/* .work:nth-child(even) {
-  margin-right: 40px;
-} */
-
-/* .work img {
-  opacity: 0.8;
-} */
-
-/* h3 {
-  position: absolute;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
-  bottom: 5rem;
-} */
-
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
 /* contact page */
 
 #contact-form ul {
   margin-bottom: 20px;
+  list-style: none;
 }
 
 #contact-form li {
