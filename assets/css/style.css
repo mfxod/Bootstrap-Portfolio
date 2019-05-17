@@ -14,7 +14,6 @@ body {
 
 h1,
 h2,
-h3,
 p {
   margin-bottom: 20px;
 }
@@ -85,7 +84,7 @@ footer {
   border-top: 2px solid #4aaaa5;
 }
 
-h3, h2 {
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -100,37 +99,36 @@ h3, h2 {
 
 /* portfolio page */
 
-.work {
+.proj-title {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  margin: auto;
+}
+
+
+/* .work {
   position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-}
+} */
 
-.work:nth-child(even) {
+/* .work:nth-child(even) {
   margin-right: 40px;
-}
+} */
 
-.work img {
-  width: 100%;
-  border: 0 none;
+/* .work img {
   opacity: 0.8;
-}
+} */
 
-.work h3 {
+/* h3 {
   position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}
+  bottom: 5rem;
+} */
 
 .auth-image {
   float: left;
