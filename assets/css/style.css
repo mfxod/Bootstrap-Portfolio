@@ -3,21 +3,14 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/dust_scratches.png");
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* general */
-
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
 
 h1,
 h2,
@@ -41,8 +34,8 @@ h3 {
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  line-height: 50px;
+  border-bottom: 2px solid #dddddd;
 }
 
 h2,
@@ -52,34 +45,21 @@ h3 {
 
 /* header */
 
-#masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
+.masthead {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
 
-#logo {
-  float: left;
-  width: 300px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
+.logo-color {
   background: #4aaaa5;
 }
 
-nav {
-  float: right;
-  margin-top: 25px;
+.logo-text {
+  font-size: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 nav a {
@@ -99,15 +79,10 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 30px 0;
-  clear: both;
   font-size: 12px;
   color: #ffffff;
-  color: #cccccc;
-  text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
-  height: 50px;
+  border-top: 2px solid #4aaaa5;
 }
 
 h3, h2 {
@@ -119,19 +94,8 @@ h3, h2 {
 
 /* main */
 
-#main-container {
-  padding-top: 130px;
-  min-height: calc(100vh - 70px);
-}
-
 .main-section {
-  float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
   background: #ffffff;
-  border: 1px solid #dddddd;
 }
 
 /* portfolio page */
